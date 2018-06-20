@@ -5,7 +5,7 @@ class SideDrawer extends Component {
   render() {
     return (
       <View style={{ width: Dimensions.get("window").width * 0.8 }}>
-        <Text>Side Drawer</Text>
+        <Text>Side Drawer 1</Text>
       </View>
     );
   }
