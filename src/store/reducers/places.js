@@ -13,8 +13,7 @@ const reducer = (state = initialState, action) => {
           key: Math.random(),
           name: action.placeName,
           image: {
-            uri:
-              "http://www.attractivepartners.co.uk/wp-content/uploads/2017/06/profile.jpg"
+            uri: "https://picsum.photos/200"
           }
         })
       };

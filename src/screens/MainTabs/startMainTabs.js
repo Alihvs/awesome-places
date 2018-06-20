@@ -5,7 +5,7 @@ const startTabs = () => {
   Promise.all([
     Icon.getImageSource("md-map", 30),
     Icon.getImageSource("ios-share-alt", 30),
-    Icon.getImageSource("ios-menu", 30)
+    Icon.getImageSource("md-menu", 30)
   ]).then(sources => {
     Navigation.startTabBasedApp({
       tabs: [
